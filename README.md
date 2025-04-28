@@ -1,9 +1,10 @@
-## 🤖 AI Interviewer Bot using RAG (Retrieval-Augmented Generation)
+# 🤖 AI Interviewer Bot using RAG (Retrieval-Augmented Generation)
 This project explores how Retrieval-Augmented Generation (RAG) can be used to build an AI-powered interviewer that dynamically asks questions based on a candidate's CV and a given job description.
 
 The bot reads a candidate’s PDF resume, understands the job requirements, and conducts an interactive interview, generating context-aware and follow-up questions intelligently.
 
-Goal: To experiment with combining RAG + LLMs to simulate real-world AI interviewing scenarios
+## Goal: To experiment with combining RAG + LLMs to simulate real-world AI interviewing scenarios.
+
 
 ### ✨ Key Features
 **📄 PDF CV Parsing** — Extracts structured text from uploaded CVs.
@@ -21,3 +22,21 @@ Goal: To experiment with combining RAG + LLMs to simulate real-world AI intervie
 **🛠️ Error Handling & User Friendly** — Smooth fallbacks if any errors occur during generation or parsing.
 
 
+### 💡 Example Use Case
+**Recruitment Process Automation:** Pre-screening candidates automatically.
+
+**Career Services:** Helping students prepare for interviews based on their resumes.
+
+**Mock Interviews:** Generating realistic interview questions dynamically.
+
+
+### 📢 Future Improvements
+Add support for multiple CV formats (docx, image-based PDFs with OCR).
+
+Improve retrieval and chunking for longer documents.
+
+Implement better conversational memory (full dialogue context tracking).
+
+Integrate with Streamlit or Gradio for building an easy-to-use web app.
+
+Support multi-turn dialogue with a more advanced conversational agent.
